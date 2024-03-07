@@ -9,7 +9,7 @@ const jump = () => {
 
         mario.classList.remove('jump');
 
-    }, 650)
+    }, 500)
 
 }
 

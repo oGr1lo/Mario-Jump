@@ -1,6 +1,12 @@
+body{
+    background-color: #313131;
+}
+
 .game-board{
+    border: 2px solid black;
+    border-radius: 15px;
     position: relative;
-    width: 100%;
+    max-width: 900px;
     height: 500px;
     border-bottom: 25px solid rgb(45, 149, 45); 
     background: linear-gradient(#87CEEB, #E0F6FF);
@@ -12,7 +18,7 @@
     position: absolute;
     bottom: 0;
     width: 60px;
-    animation: pipe-animation 1.8s linear infinite;
+    animation: pipe-animation 1.5s linear infinite;
 }
 .mario{
     position: absolute;
