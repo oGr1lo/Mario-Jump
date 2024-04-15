@@ -33,6 +33,11 @@ const loop = setInterval(() => {
         mario.style.left = '40px';
 
         clearInterval(loop);
+
+        document.addEventListener('click', () => {
+            // Reinicia o jogo (por exemplo, recarregando a página)
+            window.location.reload();
+        });
     }
 
 }, 10)
@@ -47,7 +52,6 @@ document.addEventListener('keydown', (event) => {
     }
 })
 
-//Botão de pular
-const jumpButton = document.getElementById('jumpButton');
-jumpButton.addEventListener('click', jump);
+// Adiciona um evento de clique ao documento inteiro
+document.addEventListener('click', jump);
 

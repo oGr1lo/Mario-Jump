@@ -31,32 +31,9 @@ body{
     animation: clouds-animation 20s linear infinite;
 }
 
-
 .jump{
     animation: jump 650ms ease-out;
 }
-.jump-button {
-    height: 80px;
-    border-radius: 50%; /* Torna o botão redondo */
-    background-color: #007bff; 
-    color: #fff; 
-    border: none; 
-    padding: 15px 30px; 
-    font-size: 16px; 
-    cursor: pointer; /* Muda o cursor para indicar que é clicável */
-
-    bottom: 20px; /* Distância do fundo da viewport */
-    left: 50%; /* Posicionamento horizontal na metade da viewport */
-    transform: translateX(-50%); /* Corrige o posicionamento horizontal */
-    
-    position: fixed; /* Posicionamento fixo para manter o botão no lugar */
-    transition: background-color 0.3s ease; /* Adiciona transição de cor de fundo */
-}
-.jump-button:active {
-    transform: translateX(-50%) scale(0.9); /* Diminui o tamanho do botão ao ser clicado */
-    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
-}
-
 
 @keyframes pipe-animation{
     from{
